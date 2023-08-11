@@ -14,14 +14,14 @@ public class vacationServiceTest {
         vacationService service = new vacationService();
 
         //int expected = 3;
-        //int actual = service.calculate(0, 10000, 3000, 0);
+        //int actual = service.calculate(0, 10000, 3000, 20000);
        // Assertions.assertEquals(expected, actual);
     }
     //@Test
     //public void secondShouldCalculate() {
     //  vacationService service = new vacationService();
     // int expected = 2;
-    // int actual = service.calculate(0, 10000, 3000, 0);
+    // int actual = service.calculate(0, 100000, 60000, 150000);
     //Assertions.assertEquals(expected, actual);
     // }
 
