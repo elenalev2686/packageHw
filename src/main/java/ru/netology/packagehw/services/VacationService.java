@@ -1,16 +1,13 @@
 package ru.netology.packagehw.services;
 
-public class vacationService {
-    public int calculate(int money, int income, int expense, int count) {
-        income = 10000;
-        expense = 3000;
-        money = 0;
+public class VacationService {
+    public int calculate( int income, int expense, int count, int threshold) {
+
         count = 0;
-        int threshold = 20000;
-        int month = 1;
+        int month = 0;
         int amount = 0;
 
-        for (month = 1; month < 12; month++) {
+        for (month = 0; month < 12; month++) {
             if (amount >= threshold) {
                 count++;
                 amount = (amount - expense) / 3;
