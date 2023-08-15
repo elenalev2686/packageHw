@@ -1,9 +1,9 @@
 package ru.netology.packagehw.services;
 
 public class VacationService {
-    public int calculate( int income, int expense, int count, int threshold) {
+    public int calculate( int income, int expense, int threshold) {
 
-        count = 0;
+        int count = 0;
         int month = 0;
         int amount = 0;
 

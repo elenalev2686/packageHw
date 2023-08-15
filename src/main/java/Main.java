@@ -6,7 +6,7 @@ public class Main {
         int expense = 3000;
         int threshold = 20000;
         VacationService service = new VacationService();
-        int count = service.calculate(10000, 3000, 0, 20000);
-             System.out.println(" Количество месяцев отдыха " + service.calculate(10000, 3000, 0, 20000));
+        int count = service.calculate(10000, 3000, 20000);
+             System.out.println("Количество месяцев отдыха " + service.calculate(10000, 3000, 20000));
     }
 }
